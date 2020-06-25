@@ -19,7 +19,7 @@ public class Ex4_AnimalRunner {
         animal.speak();
         cat.speak();
         dog.speak();
-        dog.speak(3);
+        dog.speak(5);
 
         Ex4_Animal.speak(dog);
         Ex4_Animal.speak(cat);
