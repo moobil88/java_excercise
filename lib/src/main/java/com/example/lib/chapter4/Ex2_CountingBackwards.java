@@ -1,0 +1,33 @@
+package com.example.lib.chapter4;
+
+// This is a number that prints out sequential, descending numbers
+public class Ex2_CountingBackwards {
+
+	// This is the main method that is executed as
+	// soon as the program starts.
+	public static void main(String[] args) {
+
+		// Print out the numbers 100, 99, 98, ..., 3, 2, 1
+		// Use a for loop.
+		for (int i = 100; i > 0; i--) {
+			System.out.println(i);
+
+		}
+
+	}
+
+}
+/*
+ * SAMPLE OUTPUT:
+ *  
+ *  100
+ *  99
+ *  98
+ *  99
+ *  97
+ *  ...
+ *  3
+ *  2
+ *  1
+ *   
+ */
